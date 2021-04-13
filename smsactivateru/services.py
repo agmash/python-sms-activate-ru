@@ -321,3 +321,10 @@ class SmsService:
 		:rtype: smsactivateru.models.ServiceModel
 		"""
 		return self._DeliveryClub
+
+	@property
+	def Nifty(self):
+		"""
+		:rtype: smsactivateru.models.ServiceModel
+		"""
+		return self._Nifty
